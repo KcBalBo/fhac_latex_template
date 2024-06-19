@@ -1,0 +1,25 @@
+*.DS_Store
+
+# Ignore auxiliary files generated during compilation
+Latex/*.aux
+Latex/*.log
+Latex/*.out
+Latex/*.toc
+
+# Ignore TexStudio-specific files
+Latex/*.synctex.gz
+Latex/*.lof
+Latex/*.lot
+Latex/*.lol
+Latex/*.idx
+Latex/*.bbl
+Latex/*.blg
+Latex/*.fdb_latexmk
+Latex/*.fls
+Latex/*.gz
+Latex/*.dvi
+
+# Ignore build directories
+Latex/_build/
+Latex/output/
+
