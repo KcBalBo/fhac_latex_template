@@ -4,7 +4,7 @@
 
 Die Bereitstellung dieses Templates wurde mit [**Prof. Dr. Raphael Pfaff**](https://www.fh-aachen.de/menschen/pfaff) abegsprochen. 
 
-Angepasst wurde diese Template von Luigi Ferraioli (Zerquer) und Ben Cloos (Benemenn)
+Angepasst wurde diese Template von [Luigi Ferraioli](https://github.com/Zerquer) und [Ben Cloos](https://github.com/Benemenn)
 
 ***
 
