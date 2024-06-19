@@ -1,6 +1,7 @@
 # Bachelor thesis
 
 **Die verwendeten Zeichnungen sind grundlegend Eigentum der Fachhochschule Aachen und dem Ersteller dieses Template Prof. Dr. Raphael Pfaff**
+
 Die Bereitstellung dieses Templates wurde mit [**Prof. Dr. Raphael Pfaff**](https://www.fh-aachen.de/menschen/pfaff) abegsprochen. 
 
 
