@@ -143,11 +143,12 @@ Möchten Sie nun mehrere Aufzählungen verschachteln, müssen Sie einfach innerh
 
 Es gibt eine unüberschaubare Menge an Styles für Tabellen. Den einfachsten Einstieg erhalten Sie, wenn Sie nicht die tabular-Umgebung, sondern die tabu-Umgebung verwenden. Hier ein Beispiel, Tabelle \ref{tabelle1}.
 
+
 \begin{table}
 \caption{Tabellen beschriftet man \underline{oberhalb}}
 \label{tabelle1}
 \tabulinesep=3pt  % ein bisschen Platz schaffen
-\begin{tabu} to 0.8\textwidth {| X[0.5c] | X[2r] | X[3l]|}
+\begin{tabu} to 0.8\textwidth {| X[c] | X[r] | X[l] |}
 \hline
 \rowfont{\bfseries} Nr & Aktion & Formel\\ 
 \hline
@@ -157,10 +158,10 @@ $G(s) = \frac{1}{(s-s_p)^n}$
 2 & Heiraten &
 $G(s) = \frac{s\omega_0^2}{s^2+2D\omega_0 s + \omega_0^2}$ 
 \\\hline
-3 & Baum pflanzen &
-$F(s) = \mathscr L \{f (t)\} = \int\limits_0^{\infty} f (t) \, e^{-s t} \text{d}t$
-\\
-\hline
+%3 & Baum pflanzen &
+%$F(s) = \mathscr L \{f (t)\} = \int\limits_0^{\infty} f (t) \, e^{-s t} \text{d}t$
+%\\
+%\hline
 \end{tabu}
 \end{table}
 
@@ -320,7 +321,7 @@ Der richtige Tex-perte tex't auch seine Bilder, z. B. so wie in Bild \ref{bild2}
 \end{center}
 \end{figure}
 
-\blindtext
+%\blindtext
 
 \subsection{Ganze Bilder}
 text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text

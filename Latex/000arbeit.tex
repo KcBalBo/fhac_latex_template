@@ -16,7 +16,6 @@
 \usepackage{makeidx}
 \usepackage{graphicx}
 \usepackage{epstopdf}
-\usepackage{kpfonts}
 \usepackage[left=2cm,right=2cm,top=2.5cm,bottom=2.5cm]{geometry}
 
 \author{Vorname Nachname} % --> Eigenen Namen einfügen
@@ -33,9 +32,9 @@
 \usepackage{subcaption}
 \parindent 0pt
 \usepackage{booktabs}
-\usepackage[export]{adjustbox}
-\usepackage{blindtext}	
-%{scrlayer-scrpage}  veraltet und sollte daher nicht mehr genutzt werden.
+
+
+%{scrlayer-scrpage}  veraltet und sollte daher nich\left\rbrace t mehr genutzt werden.
 
 % Schriftart
 \usepackage{helvet}
@@ -51,15 +50,18 @@
 \usetikzlibrary{shapes,arrows}	% einige Symbolpackages
 \usepackage{tikz-cd}		% einige Symbolpackages
 
-
 % Eigene imports
 \usepackage{float} 	    							% für Biler "hier" einfügen [H] statt [h]
 \usepackage{makecell}   							% Zeilenumbrueche in Tabellen
-\usepackage{setspace}\usepackage{threeparttable}
+\usepackage{setspace}
+\usepackage{threeparttable}
 \usepackage{hyperref}   							% Links eingügen
 \usepackage{wrapfig}								% Textumflossene Grafiken 								
 \usepackage{tabularx}							    % Zusätzlich Tabellenformat
 \usepackage{pifont}    							    % Zeichen wie X oder Haken
+\usepackage{blindtext}    							    % Platzhalter 
+\usepackage{tabu}    							    % ?????
+
 
 
 % Abstand zwischen Kopfzeile und Kapitelüberschrift
@@ -82,7 +84,7 @@
 
 % Tabellen
 \usepackage{multirow} % mehrzeiliger Text in einer Spalte
-\renewcommand{\arraystretch}{2} % Zeilenabstand vergrößern
+%\renewcommand{\arraystretch}{2} % Zeilenabstand vergrößern
 \setlength{\doublerulesep}{0.1mm} % Abstand der Doppellinien verkleinern
 \usepackage{tabu}
 \newcolumntype{C}{>{\centering\arraybackslash$}p{3cm}<{$}}
@@ -170,9 +172,9 @@
 \setcounter{page}{1}   				% Erste Seitenzahl 1
 
 \include{./doc/beispiele} % Beispiele
-%\include{./doc/101kap1}   
-%\include{./doc/102kap2}  
-%\include{./doc/103kap3}   
+\include{./doc/101kap1}   
+\include{./doc/102kap2}  
+\include{./doc/103kap3}   
 %\include{./doc/104kap4} 
 %\include{./doc/105kap5}   
 %\include{./doc/106kap6}   
